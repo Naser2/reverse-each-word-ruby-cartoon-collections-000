@@ -1,8 +1,9 @@
 def reverse_collect_word( sentence )
   
-words = sentence.split 
+  words = sentence.split 
   reversed = []
-words.collect{|word| reversed << word.reverse }
+  words.collect{|word| reversed << word.reverse  }
+
 return  reversed.join(" ")
 
 end
