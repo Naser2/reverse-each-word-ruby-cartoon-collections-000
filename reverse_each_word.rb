@@ -8,3 +8,6 @@ def reverse_each_word( sentence )
   end
 
 reverse_each_word("Hello there, and how are you?" )
+
+
+ reverse_collect_word("Hello there, and how are you?")
