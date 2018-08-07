@@ -5,6 +5,7 @@ def reverse_collect_word(sentence)
 return  reversed.join(" ")
 
 end
+ 
  reverse_each_word("Hello there, and how are you?")
  
 # -------Using ".collect" ---------------
