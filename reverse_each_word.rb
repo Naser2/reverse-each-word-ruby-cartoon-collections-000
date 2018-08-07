@@ -1,9 +1,10 @@
 def reverse_each_word( sentence )
  word = sentence.split
-  reversed = ""
-  reversed = word.each { |word| puts word.reverse }
-  return reversed 
-  # print reversed
-end 
+ reversed_word = []
+
+  word.each { |word| reversed_word <<  word.reverse }
+  reversed_sentence = reversed_word.join(" ")
+  return reversed_sentence
+  end
 
 reverse_each_word("Hello there, and how are you?" )
