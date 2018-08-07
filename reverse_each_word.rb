@@ -9,6 +9,8 @@ def reverse_each_word( sentence )
 
 reverse_each_word("Hello there, and how are you?" )
 
+
+#Using ".collect"
 def reverse_collect_word( sentence )
   
   words = sentence.split 
